@@ -1,1 +1,2 @@
-export const obj = 10;
+import Logo from "./Logo/Logo";
+export { Logo };
