@@ -4,8 +4,8 @@ import Posts from "../components/Posts/Posts";
 
 const Profile = () => {
     useEffect(() => {
-        fetch("http://localhost:3000/posts")
-            .then(response => response.json())
+        fetch("http://localhost:5001")
+            .then(response => response.text())
             .then(data => console.log(data))
     },[])
     return (

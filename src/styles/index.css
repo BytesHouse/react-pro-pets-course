@@ -19,3 +19,9 @@ body {
   background-size: cover;
   background-position: center;
 }
+.bg-image {
+  background-image: url("../../public/bg-registration.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

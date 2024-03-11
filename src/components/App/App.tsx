@@ -24,6 +24,7 @@ import Store from "../../pages/Store";
 import Shelters from "../../pages/Shelters";
 import Teams from "../../pages/Teams";
 import Services from "../../pages/Services";
+import Registration from "../../pages/Registration";
 
 const router = createBrowserRouter([
   {
@@ -87,6 +88,10 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <Login/>,
+  },
+  {
+    path: "/registration",
+    element: <Registration/>,
   },
 ]);
 
